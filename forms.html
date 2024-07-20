@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1> payment form </h1>
+        <h2> contact information</h2>
+        <p> Name:* <input type="text" name="nmae" required></p>
+        <fieldset>
+            <legend> gender</legend>
+            <p>
+                *male<input type="radio" name="gender" id="male" required>
+               * female<input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+        <p> 
+            address:<textarea name="address" id="address"cols="100" rows="8"></textarea>
+        </p>
+        <p>
+            email:*<input type="email"name="email"id="email" required>
+        </p>
+        <p>
+            pincode:*<input type="number"name="pincode" id="pincode" required>
+        </p>
+        <h2>payment information</h2>
+        <p>  
+            card type:*
+            <select name="card type"id="card type" required>
+                <option value="">----select card type----</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="googlepay">googlepay</option>
+            </select>
+        </p>
+        <p>
+            card number<input type="card number" name="card-number" id="crad number">
+        </p>
+        <p>
+            expiration date:<input type="date" name="exp-date" id="exp-date">
+        </p>
+        <p>cvv<input type="password"name="cvv"id="cvv">
+        </p>
+        <input type="submit"value="Pay Now">
+    </form>
+</body>
+</html>
